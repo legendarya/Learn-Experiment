@@ -1,0 +1,1006 @@
+* a{
+	color: #ff7d00;
+}
+
+.end{
+	display: none;
+}
+
+h1{margin:0; padding:0;}
+
+h2{
+	margin: 0.5em;
+	padding-left: 1em;
+	font-size: 1.8em;
+	font-style: italic;
+}
+
+#map_canvas{
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#innerWindow{
+	background: url(../img/boxTop.png) no-repeat top;
+	padding:1em;
+	margin:0;
+}
+
+#window{
+	background: url(../img/boxBottom.png) no-repeat bottom;
+	margin:0;
+}
+
+#expandWindow{
+	background: url(../img/degraBox.png) repeat-y;
+<<<<<<< .mine
+=======
+	width: 860px;
+	margin: 0.5em auto;
+>>>>>>> .r10
+}
+
+#esplicacion{
+	margin-bottom: 0.3em;
+}
+
+#titleQuestion{
+	padding:0;
+	margin:0;
+}
+
+#titleQuestion, #name, #window td, #mensaje_respuesta_acertada, #mensaje_respuesta_fallada, #mensaje_respuesta_correcta, #esplicacion{
+	text-align: center;
+}
+
+#question{
+	margin: 0 auto;
+}
+
+#question #response{
+	width: 200px;
+}
+
+#question div#options{
+	margin-top:1.5em;
+	text-align:center;
+}
+
+#question #options a{
+	margin-right:1em;
+	padding:0.5em 1em;
+	border:1px solid;
+	border-color:white gray gray white;
+	font-size:1.4em;
+	color:black;
+	background:#cde;
+	text-decoration:none;
+	white-space:nowrap;
+	line-height:3em;
+}
+
+#window table{
+	margin: 1em auto 0 auto;
+	width: 800px;
+	border-collapse: collapse;
+}
+
+#window table, #window table td{
+	border: 1px solid #0066c9;
+}
+
+#window h2{
+	margin: 0;
+	padding: 0;
+	font-size: 3em;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#window h1{
+	font-size: 2em;
+}
+
+#ok_button{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	margin-top: 10px;
+}
+
+#question form {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+/*#warning{
+	width: 620px;
+	height: 35px;
+	padding: 5px;
+	margin: 0 auto;
+	color: #0066c9;
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+*/
+
+#mensaje_respuesta_acertada, #respuesta_fallada, #respuesta_correcta{
+	font-size: 1.2em;
+}
+
+#mensaje_respuesta_correcta, #mensaje_respuesta_acertada, #mensaje_respuesta_fallada{
+	display: none;	
+}
+
+#mensaje_respuesta_acertada{
+	color: #41a62a;
+}
+
+#mensaje_respuesta_fallada{
+	color: #cc0000;
+}
+
+#respuesta_fallada{
+	color: #ff0000;
+}
+
+#respuesta_correcta{
+	color: #0066c9;
+	font-size: 1.8em;
+}
+
+.area_usuario{
+	position:absolute;
+	right:0;
+	top:0;
+	margin:3px;
+	text-align:right;
+	font-size: 0.8em;
+}
+
+.area_usuario .field{
+	margin: 0;
+	margin-bottom:0.2em;
+}
+
+.area_usuario .field input{
+	width:10em;
+	font-size: 1em;
+	color: #0066c9;
+	margin: 0;
+	padding: 0;
+}
+
+#login{
+	font-size: 1em;
+}
+
+.area_usuario .field label{
+	width:auto;
+	overflow:inherited;
+	float:none;
+}
+
+.area_usuario form{
+	margin-bottom: 0;
+}
+
+.ajaxCode, .htmlCode, .javascriptCode{
+	margin: 1em 0.2em;
+	padding: 1em;
+}
+
+.ajaxCode{
+	background: #ecf6e9;
+	border: 1px solid #41a62a;
+}
+
+.htmlCode{
+	background: #e5eff9;
+	border: 1px solid #0066c9;
+}
+
+.javascriptCode{
+	background: #f5e5ee;
+	border: 1px solid #a00057;
+}
+
+.entireCode, .entireCode *{
+	font-family: "Courier New", Courier, monospace;
+}
+
+.entireCode{
+	background: #e5e5e5;
+	padding: 0.5em;
+}
+
+.enlaceCodigo img{
+	float: none;
+	margin: 0;
+	margin-right: 3px;
+}
+
+.estadoPubliLeccion span, .keywords span{
+	font-weight: bold;
+	color: #000000;
+}
+
+.estadoPubliLeccion, .keywords{
+	margin-bottom: 0.5em;
+}
+
+.keywords{
+	color: #0066c9;
+}
+
+.keywords a{
+	
+}
+
+/*.claves{
+	float: left;
+	width: 250px;
+}
+
+.claves span span{
+	font-weight: bold;
+}
+
+.claves a{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+.leccion.claves li{
+	background: url(../img/degraBoton1.png) no-repeat center;
+	margin-bottom: 3px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.claves li.actual{
+	background: url(../img/degraBotonActual1.png) no-repeat center;	
+}
+
+.claves .allKeys{
+	background: url(../img/degraBotonTodas1.png) no-repeat center;
+	display: block;
+}*/
+
+.leccion{
+	background: #f2f5f6 url(../img/degraListas.png) repeat-x bottom;
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0;
+}
+
+.leccion ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.leccion li{
+	line-height: 24px;
+}
+
+.leccionesUsuer{
+	float: right;
+	width: 290px;
+}
+
+.desarrollo{
+	float: none;
+	clear: both;
+	width: auto;
+}
+
+.desarrollo li{
+	display: inline;
+	border-left: 1px solid #000000;
+	padding-left: 3px;
+}
+
+.desarrollo li{
+	line-height: 22px;
+}
+
+.desarrollo li.primero{
+	border: none;
+}
+
+.publicadas, .nombreCategoria{
+	margin: 0 290px 0 0;
+	background: none;
+	width: auto;
+}
+
+.msjAdmins{
+	background: url(../img/msjAdmins.png) no-repeat top left;
+	height: 89px;
+	width: 334px;
+	font-size: 0.8em;
+	position: absolute;
+	top: 8px;
+	left: 430px;
+	padding: 8px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.msjAdmins p{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0.5em;
+	line-height: 13px;
+}
+
+.msjAdmins p span{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+
+.btnsDirector{
+	margin: 1em 0 0.5em 0;
+}
+
+.tabla.preguntas{
+	height:15em;
+	width:35em;
+	overflow: auto;
+	border:1px solid #20b4e2;
+}
+
+.tabla.preguntas table{
+	width: 100%;
+	border-spacing: 0;
+	padding: 1em;
+}
+
+.tabla.preguntas td{
+	margin: auto 0.4em;
+}
+
+.tabla.preguntas th{
+	padding-bottom: 0.7em;
+	text-align: left;
+	color: #2283ca;
+}
+
+.tabla.preguntas tr a{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 0 0.4em;
+}
+
+.tabla.preguntas tr.actual a{
+	color: #ffffff;
+	background: #2283ca;
+}
+
+.tabla.preguntas tr.actual{
+	background: #2283ca;
+}
+
+.catLeccion{
+	width: 100%;
+	border:1px solid #2283ca;
+	padding: 0.5em;
+}
+
+.catLeccion th{
+	text-align: left;
+	padding-bottom: 0.3em;
+}
+
+.catLeccion tr.impar{
+	background: #eeeeee;
+}
+
+.catLeccion tr.par{
+	background: #e0f6ff;
+}
+
+.hdSeguir{
+	width: 3em;
+}
+
+.hdAutor{
+	width: 8em;
+}
+
+.hdNumPreguntas{
+	width: 6em;
+}
+
+.chkBox, .preguntasXleccion{
+	text-align: center;
+}
+
+.nombreCategoria{
+	height: 45px;
+	background: url(../img/degraCategoriaR.png) no-repeat top right;
+	margin-top: 1em;
+}
+
+.nombreCategoria span{
+	display: block;
+	height: 45px;
+	background: url(../img/degraCategoriaL.png) no-repeat top left;
+	margin-right: 15px;
+	font-size: 1.2em;
+	line-height: 45px;
+	padding-left: 2em;
+}
+
+.newLesson{
+	color: #2283ca;
+	font-weight: bold;
+}
+
+.linksList{
+	list-style: none;
+}
+
+.linksList li{
+	border-top: 1px solid #dcdcdc;
+}
+
+.linksList li.primero{
+	border: none
+}
+
+.linkTitle{
+	font-size: 1.5em;
+
+
+}
+
+table.ranking.leccion{
+	float:right;
+}
+
+table.ranking{
+	border:1px solid #aaf;
+	border-collapse:collapse;
+}
+
+table.ranking td,
+table.ranking th{
+	border:1px solid #aaf;
+}
+
+table.ranking .actual{
+	background:#afa;
+	font-weight:bolder;
+}
+
+.listado_lecciones h3{
+	margin:0.2em;
+}
+
+.listado_curso{
+	padding-left:16em;
+}
+
+.listado_curso h2{
+	margin:0.5em 0 0 0;
+	background:silver;
+	color:black;
+	font-size:1.1em;
+}
+
+.listado_lecciones{
+	float:right;
+}
+
+.listado_curso .listado_lecciones{
+	float:none;
+}
+
+.listado_lecciones h3{
+	background:red;
+	margin:0;
+	padding:5px 0 0 0;
+	text-align:center;
+	width:202px;
+	height:25px;
+	background:url(cabecera.png) no-repeat;
+	color:black;
+}
+
+.listado_lecciones a.todos_ejercicios{
+	background:#0cb;
+	border:2px solid;
+	border-color:#8fd #087 #087 #8fd;
+	color:yellow;
+	font-weight:bolder;
+	font-size:1.2em;
+	width:188px;
+	text-align:center;
+	text-decoration:underline;
+}
+
+.listado_lecciones ul{
+	width:210px;
+}
+
+.listado_curso .listado_lecciones ul{
+	width:auto;
+	height:auto;
+	overflow:auto;
+}
+
+.listado_lecciones ul, .listado_lecciones li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.listado_lecciones a{
+	display:block;
+	width:190px;
+	border:1px solid;
+	border-color:#fff #9bc #9bc #fff;
+	padding:5px;
+	background:#ddd;
+	color:black;
+	text-decoration:none;
+}
+
+
+.listado_lecciones .apartado{
+	background:black;
+	color:white;
+	width:192px;
+	font-size:0.8em;
+	padding:0 5px;
+}
+
+.listado_lecciones .actual a{
+	border:2px solid red;
+	width:188px;
+}
+
+.listado_curso .listado_lecciones a{
+	width:100px;
+	float:left;
+	height:70px;
+}
+
+.listado_lecciones .iniciada a{			background:#fb4;}
+.listado_lecciones .actual.iniciada a{	background:#fda;}
+.listado_lecciones .avanzada a{			background:#fe5;}
+.listado_lecciones .actual.avanzada a{	background:#fffaaa;}
+.listado_lecciones .realizada a{			background:#cf8;}
+.listado_lecciones .actual.realizada a{	background:#efc;}
+.listado_lecciones .repasada a{			background:#8f8;}
+.listado_lecciones .actual.repasada a{	background:#bfb;}
+
+.cuadroDialogo{
+	display:block;
+	background:silver;
+	border:1px solid;
+	border-color:white gray gray white;
+	position:relative;
+	z-index:100;
+	width:300px;
+	margin-left:-5px;
+	margin-right:-200px;
+	padding:5px 1px;
+}
+
+.cuadroDialogo h2{
+	margin:0;
+	font-size:1em;
+	color:black;
+}
+
+.cuadroDialogo .descripcion{
+	overflow:auto;
+	min-height:15em;
+	text-align:left;      
+	background:white;
+	overflow:auto;
+	padding:2px;
+	border:1px solid black;
+	margin-bottom:1em;
+}
+
+.cuadroDialogo .descripcion table{
+	background:silver;
+}
+
+.cuadroDialogo .descripcion th,.cuadroDialogo .descripcion td{
+	background:white;
+}
+
+
+.opciones_ejercicio .opciones{
+	height:1.5em;
+}
+
+html>body .opciones_ejercicio .opciones{
+	overflow:auto;
+	height:auto;
+}
+
+.opciones_ejercicio .opciones a, .cuadroDialogo input{
+	padding:1px 3px 1px 14px;
+	display:block;
+	color:black;
+	text-decoration:none;
+	background:#ddf8ff;
+	float:left;
+	margin:1px;
+	border:1px solid;
+	border-color:white #8bd #8bd white;
+	font-weight:bolder;
+}
+
+.cuadroDialogo input{
+	margin:auto;
+	float:none;
+}
+
+.opciones_ejercicio .opciones a.pausa{
+	background:url(ejercicios/pausa.png) no-repeat 2px 5px #ddf8ff;
+}
+
+.opciones_ejercicio .opciones a.reiniciar{
+	background:url(ejercicios/reiniciar.png) no-repeat 2px 5px #ddf8ff;
+}
+
+.opciones_ejercicio .opciones a.guardar{
+	background:url(ejercicios/guardar.png) no-repeat 2px 5px #ddf8ff;
+}
+
+.opciones_ejercicio .opciones a.pausa:hover{
+	background:url(ejercicios/pausa.png) no-repeat 3px 6px #f0fbff;
+}
+
+.opciones_ejercicio .opciones a.reiniciar:hover{
+	background:url(ejercicios/reiniciar.png) no-repeat 3px 6px #f0fbff;
+}
+
+.opciones_ejercicio .opciones a.guardar:hover{
+	background:url(ejercicios/guardar.png) no-repeat 3px 6px #f0fbff;
+}
+
+.opciones_ejercicio .opciones a:hover, .cuadroDialogo input:hover{
+	padding:2px 2px 0px 15px;
+	border-color:#8bd white white #8bd;
+}
+
+.cuadroDialogo input{
+	background:url(ejercicios/continuar.png) no-repeat 2px 5px #ddf8ff;
+}
+
+.cuadroDialogo input:hover{
+	background:url(ejercicios/continuar.png) no-repeat 3px 6px #ddf8ff;
+}
+
+.barra_progreso{
+	border:1px solid black;
+	text-align:center;
+	margin:10px 0;
+	background:url(ejercicios/progreso.png) repeat-y #eee;
+	background-position:-200px;
+	width:200px;
+}
+
+.ejercicio2 #innerWindow{
+	background: url(ejercicios/boxTop.png) no-repeat top;
+	padding:1em;
+	min-height:251px;
+}
+
+.ejercicio2 #window{
+	background: url(ejercicios/boxBottom.png) no-repeat bottom;
+	margin:0;
+}
+
+.ejercicio2 #expandWindow{
+	width: 530px;
+	background: url(ejercicios/degraBox.png) repeat-y;
+	width:530px;
+}
+
+.ejercicio2{
+	width: 530px;
+	margin: 0.5em auto;
+}
+
+#enhorabuena_final{
+	text-align:center;
+	margin:2em;
+	margin-top:5em;
+}
+
+/* Edición de cursos*/
+
+.arbol_apartados_leccion{
+	float:left;
+	width:15em;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.arbol_apartados_leccion ul{
+	list-style:none;
+	margin:0 0 0 5px;
+	padding:0;
+}
+
+.arbol_apartados_leccion li.open{
+	background:url(../componentes/aprender/abierto.png) no-repeat left 5px;
+	padding-left:12px;
+}
+
+.arbol_apartados_leccion li.close{
+	background:url(../componentes/aprender/cerrado.png) no-repeat left 5px;
+	padding-left:12px;
+}
+
+.arbol_apartados_leccion li.close ul{
+	display:none;
+}
+
+.arbol_apartados_leccion a{
+	text-decoration:none;
+	color:black;
+}
+
+.arbol_apartados_leccion li.actual a{
+	color:navy;
+	font-weight:bolder;
+}
+
+.arbol_apartados_leccion li.actual li a{
+	color:black;
+	font-weight:normal;
+}
+
+.lista_lecciones{
+	padding-left:20em;
+}
+
+/* Menú cursos */
+
+.menu_cursos{
+	margin:-1em -1em 0.5em -1em;
+	background:#def;
+	position:relative;
+	z-index:0;
+	height:1.5em;
+}
+
+html>body .menu_cursos{
+	height:auto;
+}
+
+.menu_cursos ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	background:url(borde_cursos.png) repeat-x bottom;
+}
+
+html>body .menu_cursos ul{
+	overflow:auto;
+}
+
+.menu_cursos div{
+	float:left;
+	padding: 0.2em 1em;
+	margin-top:1px;
+	border-bottom:1px solid #579;
+}
+
+.menu_cursos li{
+	float:left;
+}
+
+.menu_cursos a{
+	float:left;
+	background:#bcd;
+	border:1px solid;
+	border-color:white #79b #579 white;
+	color:black;
+	display:block;
+	padding: 0.2em 1em;
+}
+
+.menu_cursos .actual a{
+	text-decoration:none;22:27 13/09/2009
+	font-weight:bolder;
+	color:navy;
+	background:white;
+	border-bottom:white;
+	margin-bottom:-1px;
+	margin-top:1px;
+	position:relative;
+	z-index:100;
+}
+
+.publicidad{
+	margin:auto;
+	text-align:center;
+}
+
+/* Ejercicio de ordenar frases */
+
+#question #options #origen_palabras a,
+#question #options #destino_palabras a{
+	margin-right:0.2em;
+	padding:0 0.2em;
+	font-size:1.2em;
+	line-height:2em;
+	cursor:pointer;
+}
+
+#question #options #origen_palabras,
+#question #options #destino_palabras{
+	background:#ef9;
+	border:1px solid #cd7;
+	height:2.5em;
+	margin-bottom:0.2em;
+}
+
+html>body #question #options #origen_palabras,
+html>body #question #options #destino_palabras{
+	height:auto;
+	min-height:2.5em;
+}
+
+#question #options p.explicacion_ordenar{
+	margin:0;
+	padding:0;
+	font-size:0.8em;
+}
+
+.tecladoVirtual{
+	margin-top:1em;
+}
+
+.tecladoVirtual a{
+	background:silver;
+	border:2px solid;
+	border-color:#eee #999 #999 #eee;
+	font-size:1.3em;
+	color:black;
+	text-decoration:none;
+	padding:0.2em 0.5em;
+	line-height:2em;
+}
+
+.tecladoVirtual a:hover{
+	background:#ddd;
+	border-color:#999 #eee #eee #999;
+}
+
+.tecladoVirtual a.modificador{
+	background:#ff7
+}
+
+
+
+/* wiki */
+.bloque_wiki{
+	padding:0.5em;
+	border:1px solid gray;
+	margin:0.5em;
+}
+
+.bloque_wiki h3{
+	margin:-0.6em -0.6em 0 -0.6em;
+	background:gray;
+	color: white;
+	padding:0.1em 0.2em;
+	font-size:0.9em;
+}
+
+.versiones_articulo{
+	float:right;
+	width:14em;
+}
+
+.versiones_articulo table{
+	border-collapse:collapse;
+	width:100%;
+}
+
+.versiones_articulo table th, .versiones_articulo table td{
+	border-right:1px solid silver;
+	margin:0;
+	padding:0;
+}
+
+.versiones_articulo table td{
+	border-top:1px solid #eef;
+}
+
+.versiones_articulo table a{
+	display:block;
+	height:18px;
+	color:black;
+	text-decoration:none;
+	padding:1px;
+}
+
+.versiones_articulo table .actual a{
+	background:#def;
+}
+
+.columna_central_wiki{
+	padding-right:16em;
+}
+
+.revision_add{
+	color:green;
+	text-decoration:underline;
+}
+
+.revision_remove{
+	color:red;
+	text-decoration:line-through;
+}
+
+.form_edicion_articulo textarea{
+	width:100%;
+	height:10em;
+}
+
+.formato_excel{
+	border-collapse:collapse;
+}
+
+.formato_excel td, .formato_excel th{
+	padding:0;
+	border:1px solid silver;
+}
+
+.formato_excel input{
+	border:0;
+}
+
+.formato_excel td input{
+	margin:0;
+}
+
+.formato_excel th input{
+	background:silver;
+	border:1px solid;
+	border-color:white gray gray white;
+	margin:0;
+}
+
+.opciones_ejercicio ul.tabs{
+	list-style:none;
+	margin:0;
+	padding:2px 5px 0 5px;
+	overflow:auto;
+	background:#8BD;
+	margin:0 -5px 0 -5px;
+}
+
+.opciones_ejercicio ul.tabs a{
+	float:left;
+	border:1px solid;
+	border-color:white #8BD #8BD white;
+	background:#add;
+	color:black;
+	text-decoration:none;
+	padding:2px 5px ;
+}
+
+.opciones_ejercicio ul.tabs .actual a{
+	border-bottom:#EEFCFF 1px solid;
+	background:#EEFCFF;
+}

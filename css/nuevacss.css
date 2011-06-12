@@ -1,0 +1,519 @@
+
+
+.banner{
+	margin-left:-5px;
+}
+
+.end{
+	clear: both;
+	display: block;
+}
+
+h1{
+	color: #DC6B00;
+}
+
+h2{
+	color: #15A4D0;
+	font-size: 1.2em;
+	padding: 0 0 0.5em 0;
+}
+
+h2 span{
+	font-size: 1.5em;
+	margin-right: 0.8em;
+}
+
+
+a{
+	text-decoration: none;
+	color: #15a4d0;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+img{
+	border: none;
+}
+
+.logo, .logo img{
+	display:block;
+	margin: 0 auto;
+}
+
+/* Área de usuario */
+.area_usuario div{
+	display:inline;
+}
+
+.area_usuario{
+	float:right;
+	position:relative;
+	display:inline-block;
+	top: auto;
+}
+
+/* Portada */
+/* Cuadro novedades */
+.novedades ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+	
+.sectorPortada  ul{
+	overflow: auto;
+	height: 100%;
+}
+
+.novedades ul a span{
+	color:#dc6b00;
+	display:inline-block;
+	padding-right:0.5em;
+}
+
+/* Ejercicios */
+.opciones_ejercicio{
+	margin: 10px 0;
+	height: 35px;
+}
+
+.opciones_ejercicio .opciones a{
+	border: none;
+	height: 18px;
+}
+
+.opciones_ejercicio .opciones,
+.opciones_ejercicio #barra_progreso,
+.opciones_ejercicio .fallos{
+	float: left;
+}
+
+.opciones_ejercicio #barra_progreso{
+	margin: 0 10px;
+}
+
+.opciones_ejercicio .tiempo{
+	float: right;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+table.lista_preguntas, .historial_edicion{
+	float:right;
+}
+
+.historial_edicion .actual{
+	background:#eaf5ff;
+}
+
+
+/* Menu */
+.menu_principal{
+	list-style: none;
+	margin: 0px 0 20px 0;
+	padding: 0;
+	padding-left: 1em;
+}
+
+/* Arbol de ejercicios */
+.arbolEjercicios{
+	float:left;
+	width:200px;
+}
+
+.arbolEjercicios ul{
+	list-style:none;
+	margin:0;
+	padding:0 0 0 10px;
+}
+
+/*Pestañas*/
+.topTabs{
+	height: 10px;
+	background: url(../img/topTabs.png) no-repeat top left;
+	position: relative;
+	z-index: 1;
+}
+
+.bottomTabs{
+	height: 10px;
+	background: url(../img/bottomTabs.png) no-repeat top left;
+}
+
+.tabsBody{
+	width: 677px;
+}
+
+.tabsBody .contenidoTab{
+	background: url(../img/degraTabs.png) repeat-y left;
+	padding: 12px;
+	color: #535353;
+	display:none;
+	overflow:auto;
+}
+
+.tabsBody .show{
+	display:block;
+}
+
+ul.tabs{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 26px;
+	margin-left: 8px;
+}
+
+ul.tabs li{
+	float: left;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	width: 120px;
+	height: 34px;
+	background: #fff url(../img/tabs.png) no-repeat top left;
+	margin-right: 2px;
+	position: relative;
+}
+
+ul.tabs li.actual,ul.tabs li.selected{
+	z-index: 10;
+}
+
+/*tabla de las clasificaciones*/
+#clasificacion_usuarios th{
+	text-align: left;
+}
+
+#clasificacion_usuarios thead tr{
+	margin-bottom: 5px;
+}
+
+#clasificacion_usuarios thead th{
+	border-bottom: 1px solid #15A4D0;
+	padding-bottom: 5px;
+}
+
+#clasificacion_usuarios .usuario{
+	width: 300px;
+}
+
+#clasificacion_usuarios .fallos{
+	width: 100px;
+}
+
+#clasificacion_usuarios .tiempo{
+	width: 100px;
+}
+
+/* Contenido */
+
+.sectorPortada{
+	float: left;
+	margin-bottom: 30px;
+}
+
+.sectorPortada h2{
+	color: #dc6b00;
+	font-size: 1.2em;
+	padding-left: 30px;
+	margin: 0;
+	height: 28px;
+	line-height: 28px;
+}
+
+.sectorPortada.introduccion h2{
+	background: url(../img/icoIntroduccion.png) no-repeat left 4px;
+}
+
+.sectorPortada.noticias h2{
+	background: url(../img/icoNoticias.png) no-repeat left 4px;
+}
+
+.sectorPortada.cursos h2{
+	background: url(../img/icoCursos.png) no-repeat left 4px;
+}
+
+.sectorPortada.novedades h2{
+	background: url(../img/icoNovedades.png) no-repeat left 4px;
+}
+
+.sectorPortada .box{
+	border-radius:20px;
+	-moz-border-radius:20px;
+	border:1px solid silver;
+	background: #f6f8f9; /* old browsers */
+background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(50%,#e5ebee), color-stop(51%,#d7dee3), color-stop(100%,#f5f7f9)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* ie */
+}
+
+.contBoxSec{
+	width: 310px;
+	height: 230px;
+	padding: 10px;
+	color: #535353;
+	font-size: 0.8em;
+	line-height: 15px;
+}
+
+.sectorPortada.introduccion,
+.sectorPortada.cursos{
+	margin-right: 20px;
+}
+
+.sectorPortada.introduccion .contBoxSec{
+	background: url(../img/bgIntroduccion.png) no-repeat 90% 90%;
+}
+
+.sectorPortada.noticias .contBoxSec{
+	background: url(../img/bgNoticias.png) no-repeat  90% 90%;
+}
+
+.sectorPortada.cursos .contBoxSec{
+	background: url(../img/bgCursos.png) no-repeat 90% 90%;
+}
+
+.sectorPortada.novedades .contBoxSec{
+	background: url(../img/bgNovedades.png) no-repeat 90% 90%;
+}
+
+.sectorPortada.cursos .contBoxSec ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sectorPortada.cursos .contBoxSec li{
+	border-bottom: 1px solid #ced7dd;
+	padding: 3px;
+}
+
+.sectorPortada.cursos .contBoxSec li a{
+	color: #535353;
+}
+
+.sectorPortada.cursos .contBoxSec li a.catNombre{
+	color: #15A4D0;
+}
+
+.boxContainer{
+	width: 700px;
+	margin: 0 auto;
+	clear:right;
+}
+
+.lnkTour{
+	height: 30px;
+	width: 230px;
+	display: block;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	background: url(../img/botonIntro.png) no-repeat top left;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.ejercicio2{
+	margin: 0;
+}
+
+.ejercicio2 form{
+	border:0;
+	background:none;
+	width:100%;
+}
+
+/*Ventana de las lecciones*/
+.LE_BoxTitle{
+	background: url(../img/degraTopBox.png) no-repeat top left;
+	border-bottom: 1px solid #c9c9c9;
+	padding-left: 50px;
+	height: 33px;
+	line-height: 33px;
+	font-style: italic;
+}
+
+.LE_BoxTitle h1{
+	font-size: 1.3em;
+}
+
+.LE_Box{
+	background: url(../img/degraBox.png) repeat-y left;
+	overflow: auto;
+	width: 677px;
+	margin-top: 2em;
+}
+
+.LE_BoxToolbar{
+	height: 27px;
+	background: url(../img/degraToolbar.png) repeat-x left;
+	border: 1px solid #C9C9C9;
+	border-top: none;
+	font-size: 0.8em;
+	padding-top: 2px;
+	width: 675px;
+}
+
+.LE_BoxToolbar a{
+	color: #535353;
+	padding-left: 22px;
+	display: block;
+	float: left;
+	
+}
+
+.LE_BoxToolbar a span{
+	padding: 0 8px;
+	background: url(../img/separadorToolbar.png) no-repeat top right;
+	line-height: 25px;
+	display: block;
+}
+
+.LE_BoxContent{
+	overflow: auto;
+}
+
+.LE_BoxContent .apartadosList,
+.LE_BoxContent .apartadoDesc,
+.LE_BoxContent .ejercicios{
+	float: left;
+	min-height: 35px;
+	padding: 15px 8px;
+	font-size: 0.8em;
+}
+
+.LE_BoxContent .apartadoDesc{
+	color: #535353;
+	border-bottom: 1px solid #C9C9C9;
+	width: 456px;
+}
+
+.LE_BoxContent .apartadosList{
+	overflow: auto;
+	min-height: 285px;
+}
+
+.LE_BoxContent .apartadosList{
+	width: 188px;
+	border-right: 1px solid #C9C9C9;
+}
+
+.LE_BoxContent .ejercicios{
+	width: 456px;
+	height: 300px;
+	overflow: auto;
+}
+
+.LE_BoxContent .ejercicios h2{
+	color:black;
+	font-size:1em;
+	margin:0;
+	padding:0;
+	margin-top:0.5em;
+}
+
+.LE_BoxContent .ejercicios ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.LE_BoxContent .apartadosList ul,
+.LE_BoxContent .apartadosList ul li{
+	margin: 0;
+	padding: 0;
+}
+
+.LE_BoxContent .apartadosList ul li{
+	list-style: none;
+	background: url(../img/vinietaLista.png) no-repeat top left;
+	padding-left: 12px;
+}
+
+.LE_BoxContent .apartadosList ul li.desplegado{
+	background: url(../img/vinietaListaDesplegado.png) no-repeat left 8px;	
+}
+
+.LE_BoxContent .apartadosList ul li a.actual{
+	color: #dc6b00;
+}
+
+.LE_BoxContent .apartadosList ul,
+.LE_BoxContent .apartadosList ul li,
+.LE_BoxContent .apartadosList ul li a{
+	float: left;
+	clear: left;
+}
+
+.LE_BoxContent .apartadosList ul li a{
+	white-space: nowrap;
+}
+
+.LE_BoxFootInfo{
+	background: url(../img/bottomInfoBox.png) no-repeat top left;
+	height: 56px;
+	border-top: 1px solid #C9C9C9;
+}
+
+.ejercicio2 #expandWindow,
+.ejercicio2 #window,
+.ejercicio2 #innerWindow{
+	background: none;
+}
+
+.ejercicio2 #innerWindow{
+	background: url(../img/degraBoxQuestion.png) no-repeat top left;
+	height: 255px;
+	width: 647px;
+}
+
+/*Pagina de programacion*/
+.programacionPage h1{
+	padding: 10px 20px;
+}
+
+.adminInfo{
+	color: #959595;
+	border: 1px solid #959595;
+	padding: 20px 30px;
+	margin: 20px;
+	background: #fdf9d7;
+	font-family: Georgia,"Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+pre{
+	border: 1px solid #959595;
+	background: #f7f7f7;
+	padding: 20px 30px;
+}
+
+.codigoFuente{
+	background: url(../img/zipIcon.png) no-repeat left;
+	height: 48px;
+	padding-left: 55px;
+	display: block;
+	line-height: 48px;
+	width: 160px;
+	margin: 0 auto;
+	font-family: Georgia,"Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+.ccLicense{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fbLogin{
+	text-align: center;
+	margin-bottom: 20px;
+}

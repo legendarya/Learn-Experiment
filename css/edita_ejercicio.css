@@ -1,0 +1,46 @@
+.editaEjercicioTab textarea{
+	width:70%;
+	height:8em;
+	display:block;
+}
+
+.editaEjercicioTab input{
+	width:20em;
+}
+
+.editaEjercicioTab .buttons input{
+	width:auto;
+	margin-top:0.5em;
+}
+
+
+.editaEjercicioTab table{
+	border:1px solid silver;
+	border-collapse:collapse;
+}
+
+.editaEjercicioTab td, .editaEjercicioTab th{
+	border:1px solid silver;
+	margin:0;
+	padding:0;
+}
+
+.editaEjercicioTab th{
+	border:1px solid;
+	border-color:#eee grey grey #eee;
+	background:silver;
+	color:black;
+}
+
+.editaEjercicioTab table input{
+	border:0;
+	width:auto;
+}
+
+.editaEjercicioTab table .field{
+	margin-bottom:0;
+}
+
+.editaEjercicioTab .field{
+	margin-bottom:0.5em;
+}

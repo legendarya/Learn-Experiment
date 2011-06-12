@@ -1,0 +1,735 @@
+@import url("vieja.css");
+@import url("nuevacss.css");
+@import url("edita_ejercicio.css");
+@import url("mensajes.css");
+
+/* Layout general  */
+
+fieldset{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	font-family: "Trebuchet MS",Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: url(fondo.png) repeat-y center #e7f6fa;
+	color: #535353;
+	margin:0;
+	padding:0;
+	font-size:0.9em;
+	min-width:1020px;
+}
+
+.mainContainer{
+	width: 1000px;
+	margin: 0 auto;
+	background: url(topBar.png) no-repeat 50% top #fff;
+	padding: 0 10px 0 10px;
+	overflow: auto;
+}
+
+.lateral{
+	float: left;
+	width: 220px;
+	margin-top:10px;
+}
+
+.contenido{
+	margin-left: 250px;
+	padding-right:20px;
+	padding-top:5px;
+	min-height:44em;
+}
+
+/* Pie de página */
+
+.pie_de_pagina .estadisticas{
+	display:block;
+	color:black;
+	margin-bottom:5px;
+}
+
+.pie_de_pagina > div{
+	display:inline;
+}
+
+.pie_de_pagina img{
+	vertical-align:middle;
+	margin-left:2em;
+}
+
+.pie_de_pagina a:hover{
+	text-decoration:none;
+}
+
+html, body {height: 100%;}
+
+.contenido{
+	padding-bottom:120px;
+}
+
+.mainContainer{
+	min-height:100%;
+	position:relative;
+}
+	
+.pie_de_pagina {
+	position:absolute;
+	bottom:0;
+	height:100px;
+	width:1000px;
+	
+	border-top:1px solid #15A4D0;
+	padding-top:1em;
+	text-align:center;
+} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+/* Portada */
+
+.ver_mas_noticias{
+	margin:1em;
+}
+
+.semiOculto{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.error{
+	color:red;
+	font-weight:bolder;
+}
+
+.hidden{
+	display:none;
+}
+
+/* Mensajes de información */
+
+.infoAlert{
+	background: #ffffd8 url(lock.png) no-repeat left center;
+	display: block;
+	border: 2px solid #f8b356;
+	padding: 1em;
+	padding-left: 55px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear:right;
+}
+
+.info{
+	background: #eaf5ff;
+	display: block;
+	border: 2px solid #15A4D0;
+	padding: 1em;
+	padding-left: 55px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear:right;
+}
+
+/* Botones */
+
+.leButton{
+	background: url(leButtonBorderR.png) no-repeat right top;
+	text-decoration: none;
+	line-height:21px;
+	display: inline-block;
+	margin:10px 0;
+}
+
+.leButton span {
+	color: #000000;
+	background: url(leButtonBorderL.png) no-repeat left top;
+	margin:0 10px 0 0;
+	padding-left: 10px;
+	line-height:21px;
+	display: inline-block;
+}
+
+/* Migas de pan */
+
+.migas{
+	margin-top:10px;
+}
+
+.ultimosMensajes a.mensaje{
+	background: #ffffff url(foro/degraCeldaForo.png) repeat-x bottom;
+	border: 1px solid #cfcfcf;
+	font-size:0.8em;
+	overflow:hidden;
+	padding:3px;
+	display:block;
+	color:black;
+}
+
+.ultimosMensajes > div a:hover{
+	background: #f5fbff url(foro/celdaForosAzul.png) repeat-x bottom;
+	border: 1px solid #7af;
+	text-decoration:none;
+}
+
+.ultimosMensajes > div a.temaNoLeido{
+	background: #fff8eb url(foro/celdaForosNaranja.png) repeat-x bottom;	
+}
+
+.ultimosMensajes > div a.temaNoLeido:hover{
+	border: 1px solid #fa7;
+}
+
+.ultimosMensajes .titulo, .ultimosMensajes .autor{
+	color:#15A4D0;
+	display:inline;
+}
+
+.ultimosMensajes{
+	width:215px;
+}
+
+.ultimosMensajes span{
+	display:block;
+}
+
+.ultimosMensajes > div{
+	height:400px;
+	overflow:auto;
+	margin-bottom:10px;
+	border: 1px solid #cfcfcf;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+}
+
+.ultimosMensajes h2{
+	text-align:center;
+	color:black;
+	margin:0;
+	background: #171717 url(foro/dergaCabeceraForos.png) repeat-x top;
+	height: 18px;
+	font-size:1.1em;
+	padding-top:2px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+	-moz-border-radius-topleft:20px;
+	-moz-border-radius-topright:20px;
+	border:1px solid #8ac;
+	border-bottom:none;
+	
+	background: -moz-linear-gradient(top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddffff', endColorstr='#88ccee',GradientType=0 ); /* ie */
+}
+
+.ultimosMensajes h2 a{
+	color:#046;
+	text-shadow:0 0 2px white;
+}
+
+.ultimosMensajes h2 a span{
+	font-size:1em;
+}
+
+
+
+/* formularios */
+
+form{
+	background:#eaf5ff;
+	padding:10px;
+	border:1px solid #cdf;
+	display:inline-block;
+	margin-top:10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+
+
+form .error{
+	color:red;
+	text-align:center;
+	font-weight:bolder;
+	margin-bottom:5px;
+}
+
+form .field{
+	margin-bottom:5px;
+	width:auto;
+}
+
+form .field input{
+	width:300px;
+}
+
+form .field textarea{
+	min-width:590px;
+	width:100%;
+	height:200px;
+	margin-top:5px;
+}
+
+form label{
+	display:inline-block;
+	min-width:80px;
+}
+
+form .checkbox input{
+	width:auto;
+}
+
+form .checkbox input{
+	width:auto;
+}
+
+/* Área de usuario */
+.area_usuario{
+	background:#eaf5ff;
+	padding:3px 10px;
+	border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	margin:0 -10px 10px 0;
+	border:1px solid #cdf;
+	margin-top:10px;
+}
+
+.area_usuario fieldset{
+	display:inline;
+}
+
+.bajo_area_usuario{
+	clear:right;
+}
+
+.area_usuario form{
+	display:inline;
+	vertical-align:bottom;
+	margin-right:10px;
+	border:none;
+	background:none;
+}
+
+.area_usuario form .field{
+	vertical-align:bottom;
+}
+
+.area_usuario .field input{
+	width:auto;
+}
+
+.area_usuario a{
+	color:#f70;
+	margin-left:10px;
+}
+
+.area_usuario a img{
+	vertical-align:top;
+}
+
+/* Edición de ejercicios */
+.lista_preguntas table input{
+	width:140px;
+	height:1.8em;
+}
+
+.lista_preguntas_section{
+	float:left;
+	width:284px;
+}
+
+.lista_preguntas{
+	border:1px solid #ddd;
+	background:#f2f8ff;
+	min-height:500px;
+	margin-left:0px;
+	margin-bottom:3em;
+}
+
+.lista_preguntas td input{
+	width:140px;
+}
+
+.demo_ejercicio{
+	width:400px;
+	margin-bottom:0.5em;
+}
+
+.recuadro_vista_previa{
+	border: 1px solid;
+	border-color:gray silver silver gray;
+	padding:5px;
+	background:white;
+}
+
+.demo_ejercicio .opciones_ejercicio{
+	margin:0;
+}
+
+.demo_ejercicio .ventana_ejercicio{
+	margin:0;
+}
+
+.editaEjercicioPage h2{
+	color:#DC6B00;
+}
+
+.demo_ejercicio .opciones_ejercicio .tiempo {
+line-height:0.6em;
+}
+
+.datos_ejercicio > div{
+	float:right;
+	width:400px;
+	margin-bottom:3em;
+}
+
+.datos_ejercicio .pronuncia_field{
+	float:left;
+	margin-right:1em;
+}
+
+.datos_ejercicio label{
+	min-width:0;
+}
+
+.editaEjercicioPage #tabla_preguntas label{
+	display:none;
+}
+
+.editaEjercicioPage form{
+	width:100%;
+}
+
+.editaEjercicioPage .buttons input{
+	display:none;
+}
+
+.editaEjercicioPage form textarea{
+	width:100%;
+	height:50px;
+}
+
+body > object{
+	position:absolute;
+}
+
+/* Información ocultable */
+
+.hidden_info{
+	float:left;
+	border:1px solid #c80;
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	background:url(info.png) no-repeat 0 0 #ffc;
+	text-indent:22px;
+	cursor:pointer;
+	margin-top:6px;
+	margin-right:10px;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.visible_info{
+	border:1px solid #c80;
+	background:url(info.png) no-repeat 0 0 #ffc;
+	text-indent:22px;
+	cursor:pointer;
+	margin-top:6px;
+	padding:4px;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+/* Ejercicios */
+
+.ventana_ejercicio #titleQuestion, .ventana_ejercicio #enhorabuena_final div{
+	font-size:1.2em;
+	font-weight:bolder;
+}
+
+.ventana_ejercicio #name{
+	color: #15A4D0;
+	font-size: 3em;
+}
+
+.ventana_ejercicio{
+	margin:1em 0;
+	padding:1em;
+	border:1px solid #a6d0e7;
+	
+	border-radius:20px;
+	-moz-border-radius:20px;
+	
+	background: #C5E5F7; /* old browsers */
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #C5E5F7 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#C5E5F7)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#C5E5F7',GradientType=0 ); /* ie */
+}
+
+/* botón de editar ejercicio */
+.editarEjercicio{
+	float:right;
+	margin-right:60px;
+}
+
+.buttonLink{
+	margin-left:10px;
+	color:black;
+	border:1px solid #870;
+	padding:2px 10px;
+	border-radius:10px;
+	-moz-border-radius:20px;
+	
+	background: #F2D96D; /* old browsers */
+	background: -moz-linear-gradient(top, #F2D96D 50%, #F1F2B5 84%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#F2D96D), color-stop(84%,#F1F2B5)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F2D96D', endColorstr='#F1F2B5',GradientType=0 ); /* ie */
+}
+
+/* Formato contenidos teóricos */
+
+.opciones_navegacion{
+	text-align:center;
+	border:1px solid #acf;
+	padding:5px;
+	margin:10px 0;
+	clear:right;
+	position:relative;
+}
+
+.opciones_navegacion .enlace_anterior{
+	float:left;
+	position:absolute;
+	left:10px;
+}
+
+.opciones_navegacion .enlace_siguiente{
+	float:right;
+	position:absolute;
+	right:10px;
+}
+
+.contenidos_apartado{
+	overflow:auto;
+	position:relative;
+}
+
+.contenidos_apartado .subapartados{
+	clear:right;
+	background:#eaf5ff;
+	padding:10px;
+	border:1px solid #cdf;
+	margin:10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.contenidos_apartado h2,.contenidos_apartado h3{
+	color:#DC6B00;
+}
+
+.contenidos_apartado .lista_ejercicios{
+	float:right;
+	background:#eaf5ff;
+	padding:5px;
+	border:1px solid #cdf;
+	margin:0 10px 10px 10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	width:200px;
+}
+
+.contenidos_apartado .lista_ejercicios h2{
+	margin:0;
+	padding:0;
+}
+
+.contenidos_apartado .lista_ejercicios ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.contenidos_apartado .lista_ejercicios li a{
+	display:block;
+	background:#f0faff;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	margin-top:5px;
+	padding:3px;
+}
+
+.contenidos_apartado .lista_ejercicios li a:hover{
+	background:#fbfeff;
+	text-decoration:none;
+}
+
+/* CSS del contenido teórico */
+
+.contenidos_apartado h2,.contenidos_apartado h3,.contenidos_apartado h4,.contenidos_apartado h5{
+	color:#DC6B00;
+	border-bottom:1px solid black;
+	padding:1px;
+	margin:5px 10px 0 0;
+}
+
+.contenidos_apartado table{
+	border-collapse:collapse;
+	border:1px solid silver;
+	border-spacing:0;
+	margin:10px;
+}
+
+.contenidos_apartado th, .contenidos_apartado td{
+	border:1px solid silver;
+	padding:5px;
+}
+
+/*Portada de cursos*/
+
+.cursos_no_oficiales{
+	font-weight:bolder;
+}
+
+.cursos_no_oficiales a{
+	font-weight:normal;
+}
+
+/* Paginación */
+.paginacion ul{
+	list-style: none;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.paginacion li{
+	display: inline-block;
+	margin: auto 0.2em;
+}
+
+.paginacion li a{
+	color: #2283ca;
+	text-decoration: none;
+}
+
+.paginacion li.selected a, .paginacion li.selected a:hover{
+	color: #ff7d00;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.paginacion li a:hover{
+	color: #000000;
+}
+
+/* buscador */
+
+.buscador div{
+	display:inline;
+}
+
+/* Sidebar */
+
+.contenidoTab #sidebar{
+	float:right;
+}
+
+.contenidoTab .sidebox{
+	background:#eaf5ff;
+	padding:3px 10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	margin:0 -10px 10px 0;
+	border:1px solid #cdf;
+	
+	right:30px;
+	position:absolute;
+}
+
+.tabsBody .contenidoTab .sidebox h2{
+	color: #DC6B00;
+	margin:0;
+}
+
+.tabsBody .contenidoTab .sidebox ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+/* Fecha de nacimiento */
+
+.fecha_nacimiento .field{
+	display:inline-block;
+}
+
+.fecha_nacimiento .field label{
+	width:auto;
+	min-width:0;
+}
+
+/* Perfil de usuario */
+
+.info_perfil{
+	border-collapse:collapse;
+}
+
+.info_perfil td:first-child{
+	font-weight:bolder;
+}
+
+.info_perfil tr td{
+	padding:10px 10px 0 0;
+	border-bottom:1px solid #cef;
+}
+
+/* Reorganizar curso */
+
+.jerarquia_reorganiza ul{
+	margin:0;
+	padding:0;
+	padding-left:20px;
+}
+
+.jerarquia_reorganiza li span{
+	border-top:none 5px red;
+	padding-top:5px;
+	margin:0;
+}
+
+.jerarquia_reorganiza li span.apartado{
+	cursor:move;
+}
+
+.jerarquia_reorganiza li span.drop{
+	border-top:solid 5px navy;
+	padding-top:0;
+}
+
+.jerarquia_reorganiza li span:last-child{
+	height:5px;
+	display:block;
+}
+
+.jerarquia_reorganiza li:last-child{
+list-style:none;
+}

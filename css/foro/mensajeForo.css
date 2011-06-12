@@ -1,0 +1,58 @@
+.contenedorMsj{
+	border: 1px solid #cfcfcf;
+	background: #ffffff url(degraCeldaForo.png) repeat-x bottom;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.infoMsj{
+	float: left;
+	width: 210px;
+	padding: 5px;
+	font-size: 1.3em;
+	overflow: hidden;
+}
+
+.cuerpoMsj{
+	margin-left: 220px;
+	padding: 15px 15px 30px 15px;
+	background: #f5fbff url(celdaForosAzul.png) repeat-x bottom;
+	font-size: 0.9em;
+	text-align: justify;
+	border-left: 1px solid #cfcfcf;
+}
+
+.tituloMsj{
+	display: block;
+	margin: 5px;
+	padding: 0 0 5px 10px;
+	font-weight: bold;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+
+.tituloMsj img, .fechaMsj img{
+	margin: 0 5px 2px 0; 
+}
+
+.fechaMsj{
+	background: #e2eff8 url(degraMensaje.png) repeat-x top;
+	display: block;
+	font-size: 0.8em;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 15px;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+.userReg{
+	font-size: 0.6em;
+	display: block;
+	float: left;
+	color: #003366;
+}
+
+.userReg img{
+	margin-left: 0.2em;
+}
